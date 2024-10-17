@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>我要買水果</title>
+</head>
+<body>
+    <header>
+        <h1>水果王</h1><h6>我要買水果</h6>
+        <hr>
+        <center>
+            <nav>
+                <A href="Menu.html"><button class="c-button c-button--gooey">主頁<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+                <A href="Shop.html"><button class="c-button c-button--gooey">商店<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+                <A href="Order.html"><button class="c-button c-button--gooey">我要買水果<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+                <A href="Search.html"><button class="c-button c-button--gooey">查詢訂單<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+                <A href="Modify.html"><button class="c-button c-button--gooey">修改訂單<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+                <A href="Delete.html"><button class="c-button c-button--gooey">取消訂單<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+                <A href="Introduce.html"><button class="c-button c-button--gooey">果農介紹<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+                <A href="AboutUs.html"><button class="c-button c-button--gooey">關於我們<div class="c-button__blobs"><div></div><div></div><div></div></div></button></A>
+            </nav>
+        </center>
+    </header>
+    <center>
+        <div class="fade-in">
+            <main>
+                <form class="form" action="Order.php" method="post">
+                    <div class="title">請輸入訂單內容<br></div>
+                    <b>電話</b><input class="input" name="phone" placeholder="請輸入電話" required>
+                    <b>訂單內容</b><input class="input" name="items" placeholder="請輸入商品(Ex.西瓜2顆，芭樂1斤，以此類推)" required>
+                    <b>地址</b><input class="input" name="address" placeholder="請輸入地址" required>
+                    <b>備註 (無請填無)</b><input class="input" name="note" placeholder="可說明須注意事項(Ex.幾點方便接收)" required>
+                    <button class="button-confirm" type="submit">送出訂單 →</button>
+                </form>
+            </main>
+        </div>
+    </center>
+    <footer>
+        <h3>Copyright @ 2024 水果王 All Right Reserve.</h3>
+    </footer>
+</body>
+</html>
